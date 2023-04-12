@@ -1,0 +1,102 @@
+body {
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+}
+
+p , h1 , div {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+    line-height: 1.5;
+}
+
+h1 {
+    color:hsl(223, 47%, 23%) ;
+}
+
+.change {
+    color: hsl(245, 75%, 52%);
+    display: block;
+    margin: 20px;
+}
+
+.change:hover , .price-value {
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    align-self: flex-end;
+}
+
+button {
+    background-color:hsl(245, 75%, 52%) ;
+    color: white;
+    border: none;
+    font-family:  'Red Hat Display', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: hsl(224, 23%, 55%);
+}
+
+a.cancel {
+    color: hsl(224, 23%, 55%);
+    display: block;
+    text-decoration: none;
+    margin: 10px;
+}
+
+a.cancel:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+.container {
+    margin:  auto;
+    width: 30%;
+    background-color: #fff;
+}
+
+.price-logo {
+    width: 20%;
+    height: 20%;
+    /* top: center; */
+    padding: 10px;
+}
+
+.price {
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+
+.attribution {
+    
+}
+
+.payment {
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 9px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.price-value {
+    align-self: self-end;
+}
